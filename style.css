@@ -579,3 +579,25 @@
         margin: 0;
     }
 }
+
+@media (max-width: 450px) {
+
+  .nav {
+    display: none;
+  }
+  
+  .header__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons__link {
+    margin: 0 30px;
+  }
+
+  .intro__title {
+    text-align: center;
+  }
+
+
+}
