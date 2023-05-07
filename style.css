@@ -197,6 +197,9 @@
   justify-content: center;
 }
 
+
+
+
 .person_info {
   display: flex;
   flex-direction: column;
@@ -600,4 +603,53 @@
   }
 
 
+.person__image img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
 }
+
+.intro__title h1 {
+  font-size: 42px;
+}
+
+.person__title {
+  font-size: 24px;
+}
+
+.person__text {
+  font-size: 18px;
+  max-width: 300px;
+  text-align: center;
+}
+.person_info {
+
+  text-align: center;
+  margin-left: 0px;
+
+}
+
+.person__title2 {
+  font-size: 24px;
+}
+
+.person__text2 {
+  font-size: 18px;
+  max-width: 300px;
+}
+
+
+.person_info2 {
+
+  text-align: center;
+  margin-right: 0px;
+  align-items: center;
+
+}
+
+.person__text2 {
+  text-align: center;
+}
+
+}
+
